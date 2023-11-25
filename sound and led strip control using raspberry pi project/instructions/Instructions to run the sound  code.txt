@@ -1,0 +1,8 @@
+hi, so
+first thing you need to do is paste the rpi-ws281x-python folder into the pi folder
+after that paste the sound_led_test.py script on desktop and run the code 
+connect the buttons and the led according to the schematic and speaker is connected to the 3.5mm jack on the pi
+
+also paste a sound file on desktop and copy its path and paste in play sound function
+
+thanks!
