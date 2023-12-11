@@ -1,0 +1,3 @@
+Create a voice recorder that saves the recorded voice in an sd card using teensy 4.0 also intergrate the whole circuit in a 
+retro style telephone, when telephone is picked up a sound must be played to let the user know to satrt recording his or her 
+message and when the headset is put down the recording gets saved in to the sd card.
