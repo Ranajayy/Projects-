@@ -1,0 +1,2 @@
+develop a firmware that is able to make the custom designed esp32 pcb
+to switch between wifi and ethernet to communicate with the firebase .
