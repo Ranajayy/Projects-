@@ -1,0 +1,3 @@
+once you upload the get mac code from the file, open serial monitor and reset esp to see the mac, after that copy
+ it and go to line 12 of esp_now_relay_control_transmitter and add your mac address like it has been added in the code,
+ pelase add the characters after 0x and no colon is required and upload the respective codes of both esp and your done!
