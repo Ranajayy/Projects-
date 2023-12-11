@@ -1,0 +1,3 @@
+Use a analog potentiometer to control digital potentiometer on
+receiver end, communication must be done using LORA, also must integrate
+a led matrix witht he transmitter to display certain values
