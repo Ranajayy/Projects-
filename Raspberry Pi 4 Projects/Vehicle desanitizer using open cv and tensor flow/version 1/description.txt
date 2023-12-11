@@ -1,0 +1,4 @@
+Create a automatic car desanititzer :
+Tensor flow and open cv used to detect car movement , if car is moving from the specified
+direction trigger relay to open desanitizer pump, plusmeasure water level and control relays
+on the basis of car detected or not.

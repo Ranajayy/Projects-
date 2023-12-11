@@ -1,0 +1,9 @@
+now water sensor and relays are connected to arduino uno on request of client and pi and uno communicate serially,
+
+1.please paste the file present in the ubuntu code folder and replace the one in the vehicle folder present in ubuntu
+
+2.upload the pi arduino code to the arduino present in the pi_arduino folder
+
+3. rest is all same please test and let me know, please keep in mind the relay will trigger when car is going left as we have shown in the video and it can be controlled by the button if it going right.
+
+Thank you
