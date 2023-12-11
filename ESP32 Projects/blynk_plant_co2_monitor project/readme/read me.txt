@@ -1,0 +1,10 @@
+
+
+go to your documents folder find arduino and go to libraries and paste the given libraries in this delivery their and than follow the next steps..
+
+
+
+
+First change the wifi ssid and pass according to you wifi connection on line no 15 and 16 inside the code respectively.
+
+Second go to line no 94 uncomment it and set your current time so the rtc gets adjusted and upload the code. after uploading comment this line again so the rtc doesnt always set this time we want it to remmeber the time and count start counting from there.snips have been added for pass and ssid and rtc adjust time as well in readme folder.
