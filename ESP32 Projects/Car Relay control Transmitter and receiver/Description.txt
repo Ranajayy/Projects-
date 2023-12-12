@@ -1,0 +1,3 @@
+Firmware for custom esp32 trasnmiter and receiver using espnow to control relays and save configuration
+inside esp32 flash,also esp should be able to communicate with mobile app via wifi and th pcb should have
+an rgb led control capability as well.
