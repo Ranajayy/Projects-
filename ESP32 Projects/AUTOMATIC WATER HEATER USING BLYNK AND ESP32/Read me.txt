@@ -1,0 +1,3 @@
+Please change wifi ssid and wifi pass according to your inside the code before uplaoding it 
+and go to documents and go to library and paste the folder that we sent you inside there and 
+than upload the code and make the schematic according to the schematic.
