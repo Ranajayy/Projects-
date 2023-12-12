@@ -1,0 +1,5 @@
+Develop a prototype that can be used in a public
+concert to check the validity of rfid based tickets
+using sql data base on an esp32 also make sure it
+communicates with the server to check if the rfid is valid or not
+
