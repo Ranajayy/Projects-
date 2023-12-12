@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 28 19:24:32 2022
-
-@author: Ali Shah
-"""
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import *
 import sys
