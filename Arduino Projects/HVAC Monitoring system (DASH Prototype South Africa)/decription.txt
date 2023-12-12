@@ -1,0 +1,4 @@
+interface Ac voltage sensors, Ac current sensors , Tempereature and humidity and pressure trasnducers with
+an arduino mega, give wifi capapbility to the arduino emga using esp01 , and send the data to an online web server,
+also be able to control 2 seperate relays from the webserver on the arduino mega.
+make the prototype pcb such that it sould be able to be used to a single phase HVAC  and 3 phase HVAC as well.
