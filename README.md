@@ -1,2 +1,2 @@
 # Projects-
-Projects completed for current employer (OCTATHORN)
+Projects completed for  employer (OCTATHORN)
