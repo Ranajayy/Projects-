@@ -1,2 +1,3 @@
 # Projects-
-Projects completed for  employer (OCTATHORN)
+Projects completed for employers
+
