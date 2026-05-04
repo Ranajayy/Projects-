@@ -1,3 +1,3 @@
 # Projects-
-Projects completed for employers
+Projects completed for clientel globally.
 
