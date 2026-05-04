@@ -1,0 +1,6 @@
+The controller uses an esp32 which measures differnt environment parameters:
+Temperature, Humiidty, Vibration.
+it comes with isolated dry contacts and an isolated industrial standard RS485 
+operational on 48 volts DC max 72 volts 
+can control pwm baesd fans and also check if the fans are working or not.
+optional i2c oled and uart accesories.
