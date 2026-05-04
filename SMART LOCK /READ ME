@@ -1,2 +1,6 @@
 THE DIRECTORY CONTAINS SMARTLOCK BASED ON A ESP32
 2 VERSION ONE WITH GSM SIM7600 INTEGRATED AND ONE FOR LOCAL CONTROL
+RS485 industrial standard isoalted included.
+on board 5 volts 3 amp max supply operational from 48-72 volts.
+dry contacts, isolatied DI/ DO for configuring device with external alarms or devices.
+optional oled and vibration sensors for multipurpose applications.
