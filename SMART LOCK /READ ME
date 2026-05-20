@@ -1,8 +1,83 @@
-THE DIRECTORY CONTAINS SMARTLOCK BASED ON A ESP32
-2 VERSION ONE WITH GSM SIM7600 INTEGRATED AND ONE FOR LOCAL CONTROL
-RS485 industrial standard isoalted included.
-on board 5 volts 3 amp max supply operational from 48-72 volts.
-dry contacts, isolatied DI/ DO for configuring device with external alarms or devices.
-optional oled and vibration sensors for multipurpose applications.
+# **SmartLock System – ESP32 (GSM + Local Control Versions)**  
+A robust, industrial‑grade **SmartLock system** built around the **ESP32**, featuring two hardware variants:
 
-FIRMWARE BASED ON ESPIDF
+1. **GSM‑Enabled Version** using the **SIM7600 4G LTE module**  
+2. **Local‑Control Version** with RS‑485 isolated communication  
+
+Both versions share a common ESP‑IDF firmware base and are designed for harsh industrial environments with wide‑range power input and isolated I/O.
+
+---
+
+## **🔧 Key Features**
+- **Two hardware variants**
+  - GSM/4G version with **SIM7600** for remote control  
+  - Local version with **RS‑485 (isolated)** for industrial networks  
+- **Wide‑range power input:** 48–72 VDC  
+- **On‑board 5V / 3A power supply** for stable operation  
+- **Isolated digital inputs & dry‑contact outputs** for alarms, sensors, and external triggers  
+- **Optional peripherals**
+  - OLED display  
+  - Vibration sensor  
+- **Fully modular firmware** built using **ESP‑IDF**
+
+---
+
+## **📡 Communication**
+### **GSM Version**
+- SIM7600 module for:
+  - Remote lock/unlock  
+  - Cloud connectivity  
+  - SMS/HTTP/MQTT (depending on configuration)
+
+### **Local Version**
+- **RS‑485 isolated transceiver**
+- Industrial‑grade communication for:
+  - Building automation  
+  - Access control networks  
+  - Modbus‑based systems  
+
+---
+
+## **⚡ Hardware Overview**
+- **MCU:** ESP32 (dual‑core, Wi‑Fi, BLE)  
+- **Power:** 48–72 VDC input → 5V/3A regulated output  
+- **I/O:**
+  - Isolated DI/DO  
+  - Dry contacts  
+  - Optional vibration sensor  
+  - Optional OLED display  
+- **Communication:**
+  - GSM (SIM7600)  
+  - RS‑485 isolated  
+  - Wi‑Fi/BLE (ESP32 native)
+
+---
+
+##  Firmware (ESP‑IDF)**
+The firmware is written entirely in **ESP‑IDF**, following a modular architecture:
+
+- **Drivers Layer**
+  - RS‑485  
+  - SIM7600 AT command handler  
+  - Digital I/O  
+  - OLED (optional)  
+  - Vibration sensor (optional)
+
+- **Application Layer**
+  - Lock control logic  
+  - Event handling  
+  - Alarm/trigger processing  
+  - Communication manager (GSM/RS‑485)  
+
+- **System Layer**
+  - Non‑volatile configuration  
+  - Watchdog & fail‑safe routines  
+
+
+
+ Applications:
+- Industrial access control  
+- Remote site management  
+- Smart building automation  
+- Secure cabinet/locker systems  
+- GSM‑based remote locking  
