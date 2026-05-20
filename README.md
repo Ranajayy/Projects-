@@ -22,6 +22,7 @@ Actuator control (PWM fans, motors, solenoids, lock mechanisms)
 
 
 **🚀 What I Build**
+
 SmartLocks with ESP32 + SIM7600 GSM
 
 Industrial controllers with isolated RS‑485 + dry contacts
@@ -36,6 +37,7 @@ Custom PCBs with integrated firmware
 
 
 **Some of my most recent designs:**
+
 
 ESP32-S3 based monitoring system made for telecom industries:
 This controller is designed for -48V telecom and industrial environments, featuring more than 10 isolated digital inputs and outputs,
@@ -65,6 +67,7 @@ Real‑time energy monitoring system built on Zephyr RTOS using ESP32 and LoRa c
 The transmitter node reads voltage, current, and power data from PZEM sensors and sends it wirelessly to the receiver node for visualization and logging.
 
 **🔧 System Overview**
+
 Transmitter Node
 
 ESP32 running Zephyr RTOS
@@ -88,6 +91,7 @@ Optional RS‑485 interface for industrial integration
 
 
 📫 Contact
+
 If you want to collaborate, discuss embedded systems, or explore project ideas:
 
 Email: rana.hassan.dev@gmail.com
