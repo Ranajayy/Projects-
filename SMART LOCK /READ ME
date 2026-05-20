@@ -4,3 +4,5 @@ RS485 industrial standard isoalted included.
 on board 5 volts 3 amp max supply operational from 48-72 volts.
 dry contacts, isolatied DI/ DO for configuring device with external alarms or devices.
 optional oled and vibration sensors for multipurpose applications.
+
+FIRMWARE BASED ON ESPIDF
