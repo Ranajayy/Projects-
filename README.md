@@ -1,4 +1,5 @@
 **I’m Rana Hassan,**
+
 An Embedded Systems Engineer specializing in ESP32, STM32, ESP‑IDF, Zephyr RTOS, industrial communication, 
 and hardware‑software integration. I design and build production‑ready embedded systems, from PCB to firmware, with a strong 
 focus on reliability, modularity, and real‑world deployment.
