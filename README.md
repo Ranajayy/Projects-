@@ -1,3 +1,6 @@
 # Projects-
-Projects completed for clientel globally.
+Projects are based on 
+ESPIDF, Ardunio IDE, Zephyr RTOS
+depending upon the application needs.
+
 
