@@ -1,3 +1,61 @@
-Use a analog potentiometer to control digital potentiometer on
-receiver end, communication must be done using LORA, also must integrate
-a led matrix witht he transmitter to display certain values
+# **LoRa‑Based Remote Potentiometer Control System**  
+This project implements a **wireless analog‑to‑digital potentiometer control system** using **LoRa communication** between a transmitter and receiver. An **analog potentiometer** on the transmitter side is read, encoded, and sent over LoRa to the receiver, where a **digital potentiometer** replicates the same value.  
+
+The transmitter also includes an **LED matrix display** to show live readings, system status, or custom messages.
+
+Both nodes are built using the **Adafruit Feather M0 with RFM95 LoRa module**.
+
+---
+
+## **System Overview**
+- **Transmitter (Feather M0 + LoRa)**
+  - Reads an **analog potentiometer** value  
+  - Displays the value on an **LED matrix**  
+  - Sends the value via **LoRa (RFM95)**  
+
+- **Receiver (Feather M0 + LoRa)**
+  - Receives LoRa packets  
+  - Maps the received value to a **digital potentiometer (e.g., MCP41xxx)**  
+  - Updates the wiper position in real time  
+
+---
+
+## **Features**
+- Long‑range, low‑power **LoRa communication**
+- Smooth analog‑to‑digital potentiometer mirroring
+- Real‑time LED matrix display on transmitter
+- Clean, modular code structure for easy expansion
+- Works reliably in noisy RF environments
+
+---
+
+## **Hardware Used**
+### **Transmitter**
+- Adafruit Feather M0 RFM95 (LoRa 868/915 MHz)  
+- Analog potentiometer  
+- LED Matrix (MAX7219 or similar)  
+
+### **Receiver**
+- Adafruit Feather M0 RFM95  
+- Digital Potentiometer (MCP4131 / MCP41010 / similar)  
+- Supporting components (level shifting, wiring, etc.)
+
+---
+
+## **Communication**
+- LoRa modulation using RFM95  
+- Simple packet structure:  
+  ```
+  [START_BYTE][POT_VALUE][CHECKSUM]
+  ```
+- 10–20 packets per second for smooth updates  
+- CRC or checksum validation for reliability  
+
+---
+
+## **Applications**
+- Remote control systems  
+- Wireless audio/volume control  
+- Industrial analog signal replication  
+- IoT sensor/actuator tuning  
+
