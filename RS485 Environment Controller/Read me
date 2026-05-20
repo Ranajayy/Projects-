@@ -1,7 +1,88 @@
-The controller uses an esp32 which measures differnt environment parameters:
-Temperature, Humiidty, Vibration.
-it comes with isolated dry contacts and an isolated industrial standard RS485 
-operational on 48 volts DC max 72 volts 
-can control pwm baesd fans and also check if the fans are working or not.
-optional i2c oled and uart accesories.
-ESP IDF BASED FIRMWARE FREE RTOS
+Industrial Environment Controller – ESP32 (ESP‑IDF + FreeRTOS)
+An industrial‑grade environment monitoring and control system built around the **ESP32**, designed to operate in harsh conditions with isolated I/O, RS‑485 communication, and wide‑range power input.  
+
+The controller measures multiple environmental parameters, drives PWM‑based fans, and supports optional accessories for extended functionality.
+
+
+ Key Capabilities**
+- **Environmental Monitoring**
+  - Temperature  
+  - Humidity  
+  - Vibration  
+
+- **Industrial‑Grade I/O**
+  - Isolated **dry contacts**  
+  - Isolated **digital inputs/outputs**  
+  - Isolated **RS‑485** (Modbus‑ready)
+
+- **Fan Control**
+  - PWM‑based fan speed control  
+  - Fan health monitoring (detect stalled or non‑functional fans)
+
+- **Power System**
+  - Operates from **48–72 VDC**  
+  - On‑board regulated **5V supply** for stable operation  
+
+- **Optional Accessories**
+  - I²C OLED display  
+  - UART‑based external modules  
+  - Vibration sensor for predictive maintenance  
+
+---
+
+Firmware Architecture (ESP‑IDF + FreeRTOS)**
+The firmware is fully modular and built using **ESP‑IDF**, leveraging FreeRTOS tasks for deterministic behavior.
+
+### **Core Modules**
+- **Sensor Manager**
+  - Reads temperature, humidity, vibration  
+  - Applies filtering and threshold logic  
+
+- **Fan Controller**
+  - PWM generation  
+  - RPM feedback monitoring  
+  - Fault detection  
+
+- **RS‑485 Communication Stack**
+  - Isolated transceiver  
+  - Modbus‑style frame handling  
+  - Industrial‑safe communication  
+
+- **I/O Manager**
+  - Isolated DI/DO  
+  - Dry contact event handling  
+
+- **Accessory Manager**
+  - OLED display driver  
+  - UART accessory handler  
+
+- **System Services**
+  - NVS configuration  
+  - Watchdog  
+  - Error logging  
+  - Power‑safe boot logic  
+
+---
+ Communication**
+- **RS‑485 isolated interface**  
+- Suitable for:
+  - Industrial automation  
+  - HVAC systems  
+  - Building management systems  
+  - Remote sensor networks  
+
+
+Applications**
+- Industrial HVAC control  
+- Server room monitoring  
+- Cabinet/cubicle environmental control  
+- Predictive maintenance (vibration‑based)  
+- Smart building automation  
+
+---
+
+ Future Enhancements**
+- Cloud dashboard integration  
+- LoRa or Wi‑Fi telemetry  
+- OTA firmware updates  
+- Multi‑fan control support  
