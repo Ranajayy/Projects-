@@ -1,3 +1,4 @@
+
 **I’m Rana Hassan,**
 
 An Embedded Systems Engineer specializing in ESP32, STM32, ESP‑IDF, Zephyr RTOS, industrial communication, 
@@ -49,11 +50,14 @@ following a modular, production‑ready architecture optimized for industrial re
 
 <img width="1785" height="721" alt="NODE_48" src="https://github.com/user-attachments/assets/8c7c5b5d-d481-47b0-b178-913dfaec9bc5" />
 
-
+<img width="1536" height="1024" alt="eco" src="https://github.com/user-attachments/assets/f649a528-1883-44dc-aa2e-88faa53fd613" />
 
 **ESP32-S3 based IoT Node:**
 
 <img width="731" height="358" alt="smart_lock" src="https://github.com/user-attachments/assets/2278dbf3-f316-47e4-aa16-f5a1a400fe81" />
+
+<img width="1536" height="1024" alt="sl" src="https://github.com/user-attachments/assets/02d6d4cf-e318-437b-be84-521cb330a76b" />
+
 
 An ESP32‑based smart lock system built for industrial and telecom environments. It features isolated 48 V to 72 V input, RS‑485, dry contacts,
 temperature and vibration sensing, thermocouple support, and a SIM7600 4G module for MQTT and internet connectivity. Includes UART/I²C interfaces
@@ -88,6 +92,9 @@ Optional RS‑485 interface for industrial integration
 
 
 <img width="1536" height="1024" alt="Copilot_20260520_162905" src="https://github.com/user-attachments/assets/3e912407-2dfb-4310-b41a-ed6903a1cede" />
+
+<img width="1600" height="1200" alt="Transmitter_LORA_ZEPHYR" src="https://github.com/user-attachments/assets/e1e60c3e-db81-48df-b74c-ca0b704d9bb7" />
+
 
 
 📫 Contact
