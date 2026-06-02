@@ -22,7 +22,7 @@ Sensor systems (temperature, humidity, vibration, energy monitoring)
 Actuator control (PWM fans, motors, solenoids, lock mechanisms)
 
 
-**🚀 What I Build**
+** What I Build**
 
 SmartLocks with ESP32 + SIM7600 GSM
 
@@ -62,6 +62,8 @@ following a modular, production‑ready architecture optimized for industrial re
 An ESP32‑based smart lock system built for industrial and telecom environments. It features isolated 48 V to 72 V input, RS‑485, dry contacts,
 temperature and vibration sensing, thermocouple support, and a SIM7600 4G module for MQTT and internet connectivity. Includes UART/I²C interfaces
 and a battery input with ORing diode configuration for uninterrupted power.
+
+
 
 
 
