@@ -109,7 +109,7 @@ Optional RS‑485 interface for industrial integration
 
 If you want to collaborate, discuss embedded systems, or explore project ideas:
 
-Email: rana.hassan.dev@gmail.com
+Email: hassankhalidrana@gmail.com
 
 GitHub: github.com/Ranajayy
 
